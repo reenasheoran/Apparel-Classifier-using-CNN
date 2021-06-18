@@ -1,0 +1,59 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>ApparelClassifier</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top" style="background-color:azure">
+        <a class="navbar-brand" href="/">Apparel Image Predictor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/reenasheoran/Apparel-Classifier-using-CNN">Source-Code</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<br>
+<br>
+<br>
+<br>
+
+    <center><div class="col-sm-12">
+      <h1><span class="badge badge-danger">Welcome to my Apparel Image Predictor</span></h1>
+    </div></center>
+<br>
+<br>
+<center><div class="col-sm-6">
+   <div class="card">
+        <div class="card-body">
+            <form action = "/predict" method = "post" enctype="multipart/form-data">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="file" name="imagefile" /><br><br><br>
+                <input type = "submit" value="Upload File">
+            </form>
+        </div>
+    </div>
+</div></center>
+    
+
+<style>
+        body {
+            padding: 0px;
+            font-family: Arial black, Charcoal, sans-serif;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEF1m6_C06SaASfJTdm8E6ALbqqmzIqUZBWw&usqp=CAU") no-repeat center fixed; 
+            background-size:cover;
+            background-color: black;
+        }
+</style>
+
+
+</body>
+</html>
